@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>resultCount</key>
+	<integer>1</integer>
+	<key>results</key>
+	<array>
+		<dict>
+			<key>advisories</key>
+			<array>
+				<string>赌博与竞赛</string>
+				<string>偶尔/轻微的模拟赌博</string>
+				<string>偶尔/轻微的惊悚/恐怖题材</string>
+				<string>偶尔/轻微的色情内容或裸露</string>
+			</array>
+			<key>appletvScreenshotUrls</key>
+			<array/>
+			<key>artistId</key>
+			<integer>910462528</integer>
+			<key>artistName</key>
+			<string>网易</string>
+			<key>artistViewUrl</key>
+			<string>https://itunes.apple.com/cn/developer/wang-yi/id910462528?uo=4</string>
+			<key>artworkUrl100</key>
+			<string>https://is3-ssl.mzstatic.com/image/thumb/Purple62/v4/f5/68/d6/f568d6d2-ebd3-ca7b-e471-f9bd0bc8766e/source/100x100bb.jpg</string>
+			<key>artworkUrl512</key>
+			<string>https://is3-ssl.mzstatic.com/image/thumb/Purple62/v4/f5/68/d6/f568d6d2-ebd3-ca7b-e471-f9bd0bc8766e/source/512x512bb.jpg</string>
+			<key>artworkUrl60</key>
+			<string>https://is3-ssl.mzstatic.com/image/thumb/Purple62/v4/f5/68/d6/f568d6d2-ebd3-ca7b-e471-f9bd0bc8766e/source/60x60bb.jpg</string>
+			<key>averageUserRating</key>
+			<real>4.5</real>
+			<key>averageUserRatingForCurrentVersion</key>
+			<real>4</real>
+			<key>bundleId</key>
+			<string>com.netease.news</string>
+			<key>contentAdvisoryRating</key>
+			<string>17+</string>
+			<key>currency</key>
+			<string>CNY</string>
+			<key>currentVersionReleaseDate</key>
+			<string>2016-09-06T03:36:55Z</string>
+			<key>description</key>
+			<string>网易新闻，4亿新闻爱好者的态度狂欢。可深刻可没品，时评犀利跟贴奇葩，一网打尽你的新闻需求。
+ 
+【精彩跟贴】
+回复提醒不怕错过，4亿网友一起盖楼。老司机新才子，犀利评论插科打诨，各路豪杰以“贴”会友。
+【原创栏目】
+拒绝平庸，专注角度，时事新闻槽点提神醒脑，搞笑段子每日欲罢不能。 
+【互动直播】
+个性推荐实时互动，直播分类清晰明了，第一手消息，永远在现场。
+【个性订阅】
+时间越久，感情越深，看你真正想看的新闻，做一个懂你的新闻APP。
+【话题问吧】
+想说就说，斗图斗嘴全民讨论；专家互动，各路大神机智回复。
+【聚合服务】
+领金币，玩游戏，生日彩蛋贴心关怀，在这里你不孤独~
+【走向里约】 
+支持接入Apple Watch及iPhone的「健康」数据，用你的行走里程，畅游30座城市。一路与驴友畅聊，收获精美奖品，并肩走向里约，共同助力为缺水地区儿童捐水。一起开启奇妙的行走之旅吧！
+ 
+这里有最深度的新闻和最有趣的网友，
+网易新闻，改变4亿人的阅读生活。
+-----联系我们----- 
+QQ交流群：304167586，190991883
+新浪微博：@网易新闻客户端
+易信公众号：网易新闻
+微信公众号：网易新闻客户端</string>
+			<key>features</key>
+			<array>
+				<string>iosUniversal</string>
+			</array>
+			<key>fileSizeBytes</key>
+			<string>128526336</string>
+			<key>formattedPrice</key>
+			<string>免费</string>
+			<key>genreIds</key>
+			<array>
+				<string>6009</string>
+				<string>6016</string>
+			</array>
+			<key>genres</key>
+			<array>
+				<string>新闻</string>
+				<string>娱乐</string>
+			</array>
+			<key>ipadScreenshotUrls</key>
+			<array>
+				<string>http://a3.mzstatic.com/us/r30/Purple62/v4/28/98/9d/28989d71-ee87-b404-fc52-3ffbad1a7f57/sc552x414.jpeg</string>
+				<string>http://a1.mzstatic.com/us/r30/Purple71/v4/1a/fc/76/1afc763f-0cd9-a17d-94a6-4b96c6e7d157/sc552x414.jpeg</string>
+				<string>http://a3.mzstatic.com/us/r30/Purple71/v4/d9/af/a4/d9afa40e-2cc3-3789-a2aa-3caef7f8b7c4/sc552x414.jpeg</string>
+				<string>http://a5.mzstatic.com/us/r30/Purple62/v4/68/01/1d/68011d92-5600-96dd-a353-77390f1c39d4/sc552x414.jpeg</string>
+			</array>
+			<key>isGameCenterEnabled</key>
+			<false/>
+			<key>isVppDeviceBasedLicensingEnabled</key>
+			<true/>
+			<key>kind</key>
+			<string>software</string>
+			<key>languageCodesISO2A</key>
+			<array>
+				<string>ZH</string>
+				<string>ZH</string>
+			</array>
+			<key>minimumOsVersion</key>
+			<string>8.0</string>
+			<key>price</key>
+			<real>0.0</real>
+			<key>primaryGenreId</key>
+			<integer>6009</integer>
+			<key>primaryGenreName</key>
+			<string>News</string>
+			<key>releaseDate</key>
+			<string>2011-03-19T02:41:13Z</string>
+			<key>releaseNotes</key>
+			<string>【直播全新设计】
+节目列表设计优化，精彩直播一目了然，全新互动直播室给你清爽体验！
+
+【跟贴提醒上线】
+神跟贴不再错过！跟贴关注全面上线，关注跟贴达人，紧跟神贴节奏~
+
+【我们可以坐下来谈谈】
+您的宝贵意见对我们很重要，通过网易新闻「我」页面中的「意见反馈」功能将问题详情发给我们，程序员哥哥or产品姐姐一定及时改善和调整。积极建议会有惊喜礼品奉上哦！</string>
+			<key>screenshotUrls</key>
+			<array>
+				<string>http://a1.mzstatic.com/us/r30/Purple71/v4/18/fb/e3/18fbe3fe-5514-f9e2-6393-4f122f8cafc4/screen696x696.jpeg</string>
+				<string>http://a4.mzstatic.com/us/r30/Purple62/v4/70/b7/15/70b715f7-9574-cde5-4836-f4e7aad9fb65/screen696x696.jpeg</string>
+				<string>http://a5.mzstatic.com/us/r30/Purple71/v4/1d/a5/2b/1da52b7b-b996-d009-9430-27f0612c51c2/screen696x696.jpeg</string>
+				<string>http://a3.mzstatic.com/us/r30/Purple71/v4/d8/77/ba/d877ba8a-dfb9-46e9-731d-d2c5cc755728/screen696x696.jpeg</string>
+				<string>http://a4.mzstatic.com/us/r30/Purple71/v4/29/4d/17/294d17b5-e6ed-f727-f43a-9b91ee8e22b0/screen696x696.jpeg</string>
+			</array>
+			<key>sellerName</key>
+			<string>NetEase Media Technology (Beijing) Co., Ltd.</string>
+			<key>sellerUrl</key>
+			<string>http://www.163.com/newsapp</string>
+			<key>supportedDevices</key>
+			<array>
+				<string>iPad2Wifi</string>
+				<string>iPad23G</string>
+				<string>iPhone4S</string>
+				<string>iPadThirdGen</string>
+				<string>iPadThirdGen4G</string>
+				<string>iPhone5</string>
+				<string>iPodTouchFifthGen</string>
+				<string>iPadFourthGen</string>
+				<string>iPadFourthGen4G</string>
+				<string>iPadMini</string>
+				<string>iPadMini4G</string>
+				<string>iPhone5c</string>
+				<string>iPhone5s</string>
+				<string>iPhone6</string>
+				<string>iPhone6Plus</string>
+				<string>iPodTouchSixthGen</string>
+			</array>
+			<key>trackCensoredName</key>
+			<string>网易新闻 - 最有态度的新闻资讯头条直播阅读平台</string>
+			<key>trackContentRating</key>
+			<string>17+</string>
+			<key>trackId</key>
+			<integer>425349261</integer>
+			<key>trackName</key>
+			<string>网易新闻 - 最有态度的新闻资讯头条直播阅读平台</string>
+			<key>trackViewUrl</key>
+			<string>https://itunes.apple.com/cn/app/wang-yi-xin-wen-zui-you-tai/id425349261?mt=8&amp;uo=4</string>
+			<key>userRatingCount</key>
+			<integer>191993</integer>
+			<key>userRatingCountForCurrentVersion</key>
+			<integer>7</integer>
+			<key>version</key>
+			<string>15.0</string>
+			<key>wrapperType</key>
+			<string>software</string>
+		</dict>
+	</array>
+</dict>
+</plist>

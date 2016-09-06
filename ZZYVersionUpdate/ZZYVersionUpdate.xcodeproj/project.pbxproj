@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6074E365A7168F04B6EFAF0C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01C5237C848C592F71CAFDC /* libPods.a */; };
+		8429BC001D7EFE3500ED435E /* appDict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8429BBFF1D7EFE3500ED435E /* appDict.plist */; };
+		8435A6DC1D7D74F300C539A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435A6DB1D7D74F300C539A4 /* main.m */; };
+		8435A6DF1D7D74F300C539A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435A6DE1D7D74F300C539A4 /* AppDelegate.m */; };
+		8435A6E21D7D74F300C539A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435A6E11D7D74F300C539A4 /* ViewController.m */; };
+		8435A6E51D7D74F300C539A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8435A6E31D7D74F300C539A4 /* Main.storyboard */; };
+		8435A6E71D7D74F300C539A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8435A6E61D7D74F300C539A4 /* Assets.xcassets */; };
+		8435A6EA1D7D74F300C539A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8435A6E81D7D74F300C539A4 /* LaunchScreen.storyboard */; };
+		8435A6F51D7D74F300C539A4 /* ZZYVersionUpdateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435A6F41D7D74F300C539A4 /* ZZYVersionUpdateTests.m */; };
+		8435A7001D7D74F300C539A4 /* ZZYVersionUpdateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435A6FF1D7D74F300C539A4 /* ZZYVersionUpdateUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8435A6F11D7D74F300C539A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8435A6CF1D7D74F300C539A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8435A6D61D7D74F300C539A4;
+			remoteInfo = ZZYVersionUpdate;
+		};
+		8435A6FC1D7D74F300C539A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8435A6CF1D7D74F300C539A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8435A6D61D7D74F300C539A4;
+			remoteInfo = ZZYVersionUpdate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AA3021C91CBA3E633553A9B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8429BBFF1D7EFE3500ED435E /* appDict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = appDict.plist; sourceTree = "<group>"; };
+		8435A6D71D7D74F300C539A4 /* ZZYVersionUpdate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZYVersionUpdate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8435A6DB1D7D74F300C539A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8435A6DD1D7D74F300C539A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8435A6DE1D7D74F300C539A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8435A6E01D7D74F300C539A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8435A6E11D7D74F300C539A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8435A6E41D7D74F300C539A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8435A6E61D7D74F300C539A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8435A6E91D7D74F300C539A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8435A6EB1D7D74F300C539A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8435A6F01D7D74F300C539A4 /* ZZYVersionUpdateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZYVersionUpdateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8435A6F41D7D74F300C539A4 /* ZZYVersionUpdateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZYVersionUpdateTests.m; sourceTree = "<group>"; };
+		8435A6F61D7D74F300C539A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8435A6FB1D7D74F300C539A4 /* ZZYVersionUpdateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZYVersionUpdateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8435A6FF1D7D74F300C539A4 /* ZZYVersionUpdateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZYVersionUpdateUITests.m; sourceTree = "<group>"; };
+		8435A7011D7D74F300C539A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E7D079A1B97BE06B753ACB9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E01C5237C848C592F71CAFDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8435A6D41D7D74F300C539A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6074E365A7168F04B6EFAF0C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8435A6ED1D7D74F300C539A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8435A6F81D7D74F300C539A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60EECF1650322A0A6D6A35C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E7D079A1B97BE06B753ACB9 /* Pods.debug.xcconfig */,
+				4AA3021C91CBA3E633553A9B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8435A6CE1D7D74F300C539A4 = {
+			isa = PBXGroup;
+			children = (
+				8435A6D91D7D74F300C539A4 /* ZZYVersionUpdate */,
+				8435A6F31D7D74F300C539A4 /* ZZYVersionUpdateTests */,
+				8435A6FE1D7D74F300C539A4 /* ZZYVersionUpdateUITests */,
+				8435A6D81D7D74F300C539A4 /* Products */,
+				60EECF1650322A0A6D6A35C6 /* Pods */,
+				84E69D0170D4C88E29C294FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8435A6D81D7D74F300C539A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8435A6D71D7D74F300C539A4 /* ZZYVersionUpdate.app */,
+				8435A6F01D7D74F300C539A4 /* ZZYVersionUpdateTests.xctest */,
+				8435A6FB1D7D74F300C539A4 /* ZZYVersionUpdateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8435A6D91D7D74F300C539A4 /* ZZYVersionUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				8435A6DD1D7D74F300C539A4 /* AppDelegate.h */,
+				8435A6DE1D7D74F300C539A4 /* AppDelegate.m */,
+				8435A6E01D7D74F300C539A4 /* ViewController.h */,
+				8435A6E11D7D74F300C539A4 /* ViewController.m */,
+				8435A6E31D7D74F300C539A4 /* Main.storyboard */,
+				8435A6E61D7D74F300C539A4 /* Assets.xcassets */,
+				8435A6E81D7D74F300C539A4 /* LaunchScreen.storyboard */,
+				8435A6EB1D7D74F300C539A4 /* Info.plist */,
+				8429BBFF1D7EFE3500ED435E /* appDict.plist */,
+				8435A6DA1D7D74F300C539A4 /* Supporting Files */,
+			);
+			path = ZZYVersionUpdate;
+			sourceTree = "<group>";
+		};
+		8435A6DA1D7D74F300C539A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8435A6DB1D7D74F300C539A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8435A6F31D7D74F300C539A4 /* ZZYVersionUpdateTests */ = {
+			isa = PBXGroup;
+			children = (
+				8435A6F41D7D74F300C539A4 /* ZZYVersionUpdateTests.m */,
+				8435A6F61D7D74F300C539A4 /* Info.plist */,
+			);
+			path = ZZYVersionUpdateTests;
+			sourceTree = "<group>";
+		};
+		8435A6FE1D7D74F300C539A4 /* ZZYVersionUpdateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8435A6FF1D7D74F300C539A4 /* ZZYVersionUpdateUITests.m */,
+				8435A7011D7D74F300C539A4 /* Info.plist */,
+			);
+			path = ZZYVersionUpdateUITests;
+			sourceTree = "<group>";
+		};
+		84E69D0170D4C88E29C294FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E01C5237C848C592F71CAFDC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8435A6D61D7D74F300C539A4 /* ZZYVersionUpdate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8435A7041D7D74F300C539A4 /* Build configuration list for PBXNativeTarget "ZZYVersionUpdate" */;
+			buildPhases = (
+				77778CD3AAF86E33C98B8CC5 /* Check Pods Manifest.lock */,
+				8435A6D31D7D74F300C539A4 /* Sources */,
+				8435A6D41D7D74F300C539A4 /* Frameworks */,
+				8435A6D51D7D74F300C539A4 /* Resources */,
+				1E5204FCDF5424E6A5DD4778 /* Embed Pods Frameworks */,
+				BFB32F904148C163194B8C05 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZYVersionUpdate;
+			productName = ZZYVersionUpdate;
+			productReference = 8435A6D71D7D74F300C539A4 /* ZZYVersionUpdate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8435A6EF1D7D74F300C539A4 /* ZZYVersionUpdateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8435A7071D7D74F300C539A4 /* Build configuration list for PBXNativeTarget "ZZYVersionUpdateTests" */;
+			buildPhases = (
+				8435A6EC1D7D74F300C539A4 /* Sources */,
+				8435A6ED1D7D74F300C539A4 /* Frameworks */,
+				8435A6EE1D7D74F300C539A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8435A6F21D7D74F300C539A4 /* PBXTargetDependency */,
+			);
+			name = ZZYVersionUpdateTests;
+			productName = ZZYVersionUpdateTests;
+			productReference = 8435A6F01D7D74F300C539A4 /* ZZYVersionUpdateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8435A6FA1D7D74F300C539A4 /* ZZYVersionUpdateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8435A70A1D7D74F300C539A4 /* Build configuration list for PBXNativeTarget "ZZYVersionUpdateUITests" */;
+			buildPhases = (
+				8435A6F71D7D74F300C539A4 /* Sources */,
+				8435A6F81D7D74F300C539A4 /* Frameworks */,
+				8435A6F91D7D74F300C539A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8435A6FD1D7D74F300C539A4 /* PBXTargetDependency */,
+			);
+			name = ZZYVersionUpdateUITests;
+			productName = ZZYVersionUpdateUITests;
+			productReference = 8435A6FB1D7D74F300C539A4 /* ZZYVersionUpdateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8435A6CF1D7D74F300C539A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "断剑";
+				TargetAttributes = {
+					8435A6D61D7D74F300C539A4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8435A6EF1D7D74F300C539A4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8435A6D61D7D74F300C539A4;
+					};
+					8435A6FA1D7D74F300C539A4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8435A6D61D7D74F300C539A4;
+					};
+				};
+			};
+			buildConfigurationList = 8435A6D21D7D74F300C539A4 /* Build configuration list for PBXProject "ZZYVersionUpdate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8435A6CE1D7D74F300C539A4;
+			productRefGroup = 8435A6D81D7D74F300C539A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8435A6D61D7D74F300C539A4 /* ZZYVersionUpdate */,
+				8435A6EF1D7D74F300C539A4 /* ZZYVersionUpdateTests */,
+				8435A6FA1D7D74F300C539A4 /* ZZYVersionUpdateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8435A6D51D7D74F300C539A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8429BC001D7EFE3500ED435E /* appDict.plist in Resources */,
+				8435A6EA1D7D74F300C539A4 /* LaunchScreen.storyboard in Resources */,
+				8435A6E71D7D74F300C539A4 /* Assets.xcassets in Resources */,
+				8435A6E51D7D74F300C539A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8435A6EE1D7D74F300C539A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8435A6F91D7D74F300C539A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E5204FCDF5424E6A5DD4778 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77778CD3AAF86E33C98B8CC5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFB32F904148C163194B8C05 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8435A6D31D7D74F300C539A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8435A6E21D7D74F300C539A4 /* ViewController.m in Sources */,
+				8435A6DF1D7D74F300C539A4 /* AppDelegate.m in Sources */,
+				8435A6DC1D7D74F300C539A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8435A6EC1D7D74F300C539A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8435A6F51D7D74F300C539A4 /* ZZYVersionUpdateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8435A6F71D7D74F300C539A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8435A7001D7D74F300C539A4 /* ZZYVersionUpdateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8435A6F21D7D74F300C539A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8435A6D61D7D74F300C539A4 /* ZZYVersionUpdate */;
+			targetProxy = 8435A6F11D7D74F300C539A4 /* PBXContainerItemProxy */;
+		};
+		8435A6FD1D7D74F300C539A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8435A6D61D7D74F300C539A4 /* ZZYVersionUpdate */;
+			targetProxy = 8435A6FC1D7D74F300C539A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8435A6E31D7D74F300C539A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8435A6E41D7D74F300C539A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8435A6E81D7D74F300C539A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8435A6E91D7D74F300C539A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8435A7021D7D74F300C539A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8435A7031D7D74F300C539A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8435A7051D7D74F300C539A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7D079A1B97BE06B753ACB9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZYVersionUpdate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanjian.ZZYVersionUpdate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8435A7061D7D74F300C539A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA3021C91CBA3E633553A9B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZYVersionUpdate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanjian.ZZYVersionUpdate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8435A7081D7D74F300C539A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZYVersionUpdateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanjian.ZZYVersionUpdateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZYVersionUpdate.app/ZZYVersionUpdate";
+			};
+			name = Debug;
+		};
+		8435A7091D7D74F300C539A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZYVersionUpdateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanjian.ZZYVersionUpdateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZYVersionUpdate.app/ZZYVersionUpdate";
+			};
+			name = Release;
+		};
+		8435A70B1D7D74F300C539A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZYVersionUpdateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanjian.ZZYVersionUpdateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZYVersionUpdate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8435A70C1D7D74F300C539A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZYVersionUpdateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanjian.ZZYVersionUpdateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZYVersionUpdate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8435A6D21D7D74F300C539A4 /* Build configuration list for PBXProject "ZZYVersionUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8435A7021D7D74F300C539A4 /* Debug */,
+				8435A7031D7D74F300C539A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8435A7041D7D74F300C539A4 /* Build configuration list for PBXNativeTarget "ZZYVersionUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8435A7051D7D74F300C539A4 /* Debug */,
+				8435A7061D7D74F300C539A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8435A7071D7D74F300C539A4 /* Build configuration list for PBXNativeTarget "ZZYVersionUpdateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8435A7081D7D74F300C539A4 /* Debug */,
+				8435A7091D7D74F300C539A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8435A70A1D7D74F300C539A4 /* Build configuration list for PBXNativeTarget "ZZYVersionUpdateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8435A70B1D7D74F300C539A4 /* Debug */,
+				8435A70C1D7D74F300C539A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8435A6CF1D7D74F300C539A4 /* Project object */;
+}
