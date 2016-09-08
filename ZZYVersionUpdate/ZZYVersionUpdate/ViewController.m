@@ -11,6 +11,12 @@
 #import <Masonry.h>
 #import <SVProgressHUD.h>
 
+typedef enum : NSUInteger {
+    LocolVersionToAppStoreVersionEqual = 0,//本地等于appStore版本号
+    LocolVersionToAppStoreVersionLarge = 1,//本地大于appStore版本号
+    LocolVersionToAppStoreVersionSmall = 2,//本地小于appStore版本号
+} CompareVersionType;
+
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic, weak) UITableView * table;
@@ -28,6 +34,11 @@
  *  appStore下载链接
  */
 @property (nonatomic, copy) NSString * urlStr;
+
+/**
+ *  本地版本号与appStore版本号的大小关系
+ */
+@property (nonatomic, assign) CompareVersionType type;
 
 @end
 
@@ -78,7 +89,11 @@
     }
     return _dataArray;
 }
-
+/**
+ *  界面是否显示版本更新cell
+ *
+ *  @return Yes：显示
+ */
 - (BOOL)isShowUpdate
 {
     //获取Appstore中信息
@@ -99,22 +114,12 @@
     
     //获取本地版本号
     self.localVersion = [[NSBundle mainBundle]infoDictionary][@"CFBundleVersion"];
+
     
-    NSLog(@"appVersion %@ localVersion %@ ",self.appStoreVersion ,self.localVersion );
-    
-    //比较AppStore版本号与本地版本号的大小
-//    if([self.appStoreVersion compare:self.localVersion] == NSOrderedAscending)
-//    {
-//        return NO;
-//    }
-//    else
-//    {
-//        return YES;
-//    }
-    
-    return [self checkVersion:self.localVersion isNewThanVersion:self.appStoreVersion];
+    self.type = [self checkVersion:self.localVersion isNewThanVersion:self.appStoreVersion];
     
     
+    return ! (self.type == LocolVersionToAppStoreVersionLarge);
 }
 
 /**
@@ -123,23 +128,30 @@
  *  @param localVersion 当前版本号
  *  @param appSroreVersion appStore版本号
  *
- *  @return appStore版本号是否大于当前版本号
+ *  @return appStore版本号与当前版本号大小关系
  
  *   当前版本号（用户为用户版本号，审核为Xcode开发版本号）
      appStore版本号是 大于或等于 当前版本号 显示更新
  */
--(BOOL)checkVersion:(NSString *)localVersion isNewThanVersion:(NSString *)appSroreVersion{
+- (CompareVersionType)checkVersion:(NSString *)localVersion isNewThanVersion:(NSString *)appSroreVersion{
     NSArray * locol = [localVersion componentsSeparatedByString:@"."];
     NSArray * appStore = [appSroreVersion componentsSeparatedByString:@"."];
     
-    for (NSUInteger i=0; i<locol.count; i++) {
+    for (NSUInteger i = 0; i<locol.count; i++) {
         NSInteger locolV = [[locol objectAtIndex:i] integerValue];
         NSInteger appStoreV = appStore.count > i ? [[appStore objectAtIndex:i] integerValue] : 0;
         if (locolV > appStoreV) {
-            return NO;
+            return LocolVersionToAppStoreVersionLarge;
         }
-        else if (locolV == appStoreV || locolV < appStoreV) {
-            return YES;
+        else if (locolV < appStoreV) {
+            return LocolVersionToAppStoreVersionSmall;
+        }
+        
+        if(i == locol.count - 1)
+        {
+            if (locolV == appStoreV) {
+                return LocolVersionToAppStoreVersionEqual;
+            }
         }
     }
     return NO;
@@ -184,13 +196,13 @@
                 //版本更新
                 NSString * message = nil;
                 
-                if ([self.localVersion compare:self.appStoreVersion] == NSOrderedSame) {
+                if ( self.type == LocolVersionToAppStoreVersionEqual) {
                     //当前是最新版本
                     NSLog(@"当前是最新版本");
                     message = @"当前是最新版本";
                     
                 }
-                else if ([self.localVersion compare:self.appStoreVersion] == NSOrderedAscending)
+                else if (self.type == LocolVersionToAppStoreVersionSmall)
                 {
                     NSLog(@"更新版本");
                     message = [NSString stringWithFormat:@"请点击更新最新版本:%@",self.appStoreVersion];
