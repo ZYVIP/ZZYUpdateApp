@@ -72,7 +72,7 @@
         }
         else
         {
-            _dataArray = [NSArray arrayWithObjects:@"版本更新", @"清理缓存",@"关于我们", nil];
+            _dataArray = [NSArray arrayWithObjects: @"清理缓存",@"关于我们", nil];
 
         }
     }
@@ -103,17 +103,47 @@
     NSLog(@"appVersion %@ localVersion %@ ",self.appStoreVersion ,self.localVersion );
     
     //比较AppStore版本号与本地版本号的大小
-    if([self.appStoreVersion compare:self.localVersion] == NSOrderedAscending)
-    {
-        return NO;
-    }
-    else
-    {
-        return YES;
-    }
+//    if([self.appStoreVersion compare:self.localVersion] == NSOrderedAscending)
+//    {
+//        return NO;
+//    }
+//    else
+//    {
+//        return YES;
+//    }
+    
+    return [self checkVersion:self.localVersion isNewThanVersion:self.appStoreVersion];
+    
     
 }
 
+/**
+ *  比较版本号的大小
+ *
+ *  @param localVersion 当前版本号
+ *  @param appSroreVersion appStore版本号
+ *
+ *  @return appStore版本号是否大于当前版本号
+ 
+ *   当前版本号（用户为用户版本号，审核为Xcode开发版本号）
+     appStore版本号是 大于或等于 当前版本号 显示更新
+ */
+-(BOOL)checkVersion:(NSString *)localVersion isNewThanVersion:(NSString *)appSroreVersion{
+    NSArray * locol = [localVersion componentsSeparatedByString:@"."];
+    NSArray * appStore = [appSroreVersion componentsSeparatedByString:@"."];
+    
+    for (NSUInteger i=0; i<locol.count; i++) {
+        NSInteger locolV = [[locol objectAtIndex:i] integerValue];
+        NSInteger appStoreV = appStore.count > i ? [[appStore objectAtIndex:i] integerValue] : 0;
+        if (locolV > appStoreV) {
+            return NO;
+        }
+        else if (locolV == appStoreV || locolV < appStoreV) {
+            return YES;
+        }
+    }
+    return NO;
+}
 
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
